@@ -1,0 +1,19 @@
+.message-form {
+  display: flex;
+  padding: 1rem;
+  border-block-start: 1px solid silver;
+}
+
+.message-form > * + * {
+  margin-inline-start: 1rem;
+}
+
+.message-field {
+  flex: auto;
+}
+
+.message-field,
+.submit-button {
+  border: 1px solid silver;
+  border-radius: 5px;
+}

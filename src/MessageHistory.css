@@ -1,0 +1,39 @@
+.message-history {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  overflow: auto;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+}
+
+.messages > * {
+  margin: 0;
+}
+
+.message {
+  border-radius: 5px;
+  padding: 1rem;
+  max-width: 80%;
+  list-style: none;
+}
+
+.message.-from-user {
+  align-self: flex-start;
+  background-color: silver;
+}
+
+.message.-from-me {
+  align-self: flex-end;
+  background-color: #3366ff;
+  color: white;
+}
+
+.message p {
+  margin: 0;
+}
