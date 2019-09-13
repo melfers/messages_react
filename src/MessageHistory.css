@@ -6,16 +6,6 @@
   overflow: auto;
 }
 
-.messages {
-  display: flex;
-  flex-direction: column;
-  flex: auto;
-}
-
-.messages > * {
-  margin: 0;
-}
-
 .message {
   border-radius: 5px;
   padding: 1rem;

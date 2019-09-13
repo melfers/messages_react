@@ -1,0 +1,9 @@
+.conversation {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+}
+
+.conversation > * {
+  margin: 0;
+}
